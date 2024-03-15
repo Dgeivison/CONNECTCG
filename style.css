@@ -33,9 +33,10 @@ body{
     gap: 20px;
 }
 
-.cabeçalho h1{
-    font-size: 25px;
+.cabeçalho h3{
+    font-size: 30px;
     text-align: center;
+     position: relative;
 }
 
 .link-bio a{
