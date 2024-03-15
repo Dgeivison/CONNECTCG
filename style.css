@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+.logo{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo img{
+    max-width: 400px;
+    height: 300px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.link-bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.cabeçalho h1{
+    font-size: 45px;
+    text-align: center; 
+}
+
+.cabeçalho h3{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    font-size: small;
+}
+
+.link-bio a{
+
+    background-color: red;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px red;
+    border-radius: 10px;
+    background-image: linear-gradient( to bottom, rgb(255, 0, 0), rgb(0, 0, 0));
+}
+
+.link-bio a :hover{
+    background-color: #fff;
+    color: red;
+}
+
+
+.local{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.local h5{
+    color: rgb(255, 255, 255);
+}
