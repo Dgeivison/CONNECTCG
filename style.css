@@ -34,15 +34,9 @@ body{
 }
 
 .cabeçalho h1{
-    font-size: 45px;
-    text-align: center; 
-}
-
-.cabeçalho h3{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     position: relative;
-    font-size: small;
 }
 
 .link-bio a{
