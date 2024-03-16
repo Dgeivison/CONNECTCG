@@ -68,6 +68,7 @@ body{
     font-size: 13px;
 }
 
-.local h5{
-    color: rgb(255, 255, 255);
+.since{
+    text-align: center;
+    text-transform: uppercase;
 }
