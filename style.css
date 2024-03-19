@@ -55,6 +55,8 @@ img{
     font-size: 20px;
     text-align: center;
      position: relative;
+    text-decoration-line: underline;
+    text-decoration-color: red;
 }
 
 .link-bio a{
