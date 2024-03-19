@@ -24,6 +24,24 @@ body{
     border-radius: 20px;
 }
 
+img{
+    max-width: 640px;
+    transform: translateX(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform: translatex(0px);
+    }
+}
+
 .link-bio{
     display: flex;
     flex-direction: column;
